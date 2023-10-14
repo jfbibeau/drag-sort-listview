@@ -5,10 +5,10 @@ dependencies {
 }
 
 android {
-    compileSdkVersion 31
     defaultConfig {
-        minSdkVersion 8
-        targetSdkVersion 32
+        minSdkVersion 21
+        compileSdk 34
+        targetSdkVersion 34
     }
 
     sourceSets {
